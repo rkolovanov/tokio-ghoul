@@ -19,7 +19,7 @@ int main() {
     delay(sf::seconds(18));
     std::cerr << "\033[01;31mЯ... ";
     delay(sf::seconds(3));
-    std::cerr << "гуль\n";
+    std::cerr << "гуль.\n";
 
     while (music.getStatus() == sf::Music::Playing) {
         delay(sf::milliseconds(100));
